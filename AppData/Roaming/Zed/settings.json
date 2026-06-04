@@ -1,0 +1,116 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "auto_install_extensions": {
+        "html": true
+    },
+    "language_models": {
+        "openai_compatible": {
+            "Kimi": {
+                "api_url": "https://api.kimi.com/coding/v1",
+                "available_models": [
+                    {
+                        "name": "Kimi-k2.6",
+                        "max_tokens": 262144,
+                        "max_output_tokens": 32768,
+                        "max_completion_tokens": 262144,
+                        "capabilities": {
+                            "tools": true,
+                            "images": true,
+                            "parallel_tool_calls": true,
+                            "prompt_cache_key": true,
+                            "chat_completions": true,
+                            "interleaved_reasoning": false,
+                        },
+                    },
+                ],
+            },
+        },
+    },
+    "project_panel": {
+        "dock": "right",
+    },
+    "outline_panel": {
+        "dock": "right",
+    },
+    "collaboration_panel": {
+        "dock": "right",
+    },
+    "agent": {
+        "dock": "left",
+        "favorite_models": [],
+        "model_parameters": [],
+    },
+    "git_panel": {
+        "dock": "right",
+    },
+    "agent_servers": {
+        "Kimi Code CLI": {
+            "default_config_options": {
+                "mode": "auto"
+            },
+            "type": "custom",
+            "command": "kimi",
+            "args": ["acp"],
+            "env": {},
+        },
+        "codex-acp": {
+            "type": "registry",
+        },
+        "claude-acp": {
+            "default_config_options": {
+                "mode": "auto",
+            },
+            "type": "registry",
+        },
+    },
+    "session": {
+        "trust_all_worktrees": true,
+    },
+    "terminal": {
+        "font_size": 15.0,
+        "font_family": "Consolas",
+        "font_fallbacks": [
+            "Monaco",
+            "Source Code Pro",
+            "monospace",
+            "Courier New",
+        ],
+    },
+    "multi_cursor_modifier": "cmd_or_ctrl",
+    "minimap": {
+        "show": "auto",
+    },
+    "buffer_font_family": "Consolas",
+    "file_types": {
+        "javascript": ["*.wxs"],
+        "html": ["*.rml"],
+        "jsonc": ["*.cjson"],
+        "css": ["*.wxss", "*.rcss"],
+    },
+    "auto_indent_on_paste": false,
+    "linked_edits": true,
+    "semantic_tokens": "full",
+    "line_ending": "prefer_lf",
+    "wrap_guides": [],
+    "tab_size": 4,
+    "base_keymap": "VSCode",
+    "icon_theme": {
+        "mode": "system",
+        "light": "Zed (Default)",
+        "dark": "Zed (Default)"
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 15,
+    "theme": {
+        "mode": "dark",
+        "light": "Gruvbox Light",
+        "dark": "Gruvbox Dark Hard",
+    },
+}

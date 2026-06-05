@@ -1,0 +1,6 @@
+
+# ── 飞书系列 — 不通过 dotfiles 同步 ──
+dot_agents/skills/lark-*
+
+# ── 标准化工具 — npm 安装即可 ──
+dot_agents/skills/agent-browser

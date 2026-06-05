@@ -1,3 +1,8 @@
+---
+name: zed-chezmoi-sync
+description: 用 chezmoi 将 Zed 编辑器配置同步到远程 dotfiles 仓库。当用户说"同步 zed 配置"、"push zed 设置"、"pull zed 配置"、"备份 zed 设置"或"zed chezmoi"时触发。
+---
+
 # Zed Chezmoi 同步 Skill
 
 用 chezmoi 将 Zed 编辑器配置同步到远程 dotfiles 仓库（`https://github.com/asxiuxiu/dotfiles.git`）。

@@ -1,3 +1,8 @@
+---
+name: skill-hub
+description: 管理个人 skill 的同步与分发。将 user scope skills 用 chezmoi 纳入版本控制，实现跨电脑一键同步。当用户说"skill hub"、"同步 skills"、"skills 管理"、"skill 备份"或"新电脑装 skills"时触发。
+---
+
 # Skill Hub
 
 管理个人 skill 的同步与分发。将 user scope skills（`~/.agents/skills/`）用 chezmoi 纳入版本控制，实现跨电脑一键同步。

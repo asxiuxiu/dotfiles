@@ -96,7 +96,7 @@
     },
     "auto_indent_on_paste": false,
     "linked_edits": true,
-    "semantic_tokens": "full",
+    "semantic_tokens": "combined",
     "line_ending": "prefer_lf",
     "wrap_guides": [],
     "tab_size": 4,

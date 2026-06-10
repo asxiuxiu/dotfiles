@@ -7,21 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "prettier": {
+        "parser": "",
+        "allowed": false
+    },
     "use_system_prompts": true,
     "edit_predictions": {
         "open_ai_compatible_api": {
             "api_url": ""
-        }
-    },
-    "languages": {
-        "C++": {
-            "indent_guides": {
-                "line_width": 2,
-                "background_coloring": "disabled"
-            },
-            "hard_tabs": false,
-            "auto_indent_on_paste": true,
-            "auto_indent": "syntax_aware"
         }
     },
     "cli_default_open_behavior": "existing_window",
@@ -80,7 +73,9 @@
             },
             "type": "custom",
             "command": "kimi",
-            "args": ["acp"],
+            "args": [
+                "acp"
+            ],
             "env": {},
         },
         "codex-acp": {
@@ -102,7 +97,7 @@
         "trust_all_worktrees": true,
     },
     "terminal": {
-        "font_size": 15.0,
+        "font_size": 14.0,
         "font_family": "Consolas",
         "font_fallbacks": [
             "Monaco",
@@ -117,10 +112,19 @@
     },
     "buffer_font_family": "Consolas",
     "file_types": {
-        "javascript": ["*.wxs"],
-        "html": ["*.rml"],
-        "jsonc": ["*.cjson"],
-        "css": ["*.wxss", "*.rcss"],
+        "javascript": [
+            "*.wxs"
+        ],
+        "html": [
+            "*.rml"
+        ],
+        "jsonc": [
+            "*.cjson"
+        ],
+        "css": [
+            "*.wxss",
+            "*.rcss"
+        ],
     },
     "auto_indent_on_paste": false,
     "linked_edits": true,
@@ -139,6 +143,6 @@
     "theme": {
         "mode": "dark",
         "light": "Gruvbox Dark",
-        "dark": "Gruvbox Dark Hard"
+        "dark": "Ayu Dark"
     },
 }

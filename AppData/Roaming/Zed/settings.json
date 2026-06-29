@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "agent_buffer_font_size": 14.0,
+    "agent_ui_font_size": 15.0,
+    "diff_view_style": "split",
     "prettier": {
         "parser": "",
         "allowed": false
@@ -23,26 +26,7 @@
     },
     "language_models": {
         "openai_compatible": {
-            "Kimi": {
-                "api_url": "https://api.kimi.com/coding/v1",
-                "available_models": [
-                    {
-                        "name": "Kimi-k2.6",
-                        "max_tokens": 262144,
-                        "max_output_tokens": 32768,
-                        "max_completion_tokens": 262144,
-                        "capabilities": {
-                            "tools": true,
-                            "images": true,
-                            "parallel_tool_calls": true,
-                            "prompt_cache_key": true,
-                            "chat_completions": true,
-                            "interleaved_reasoning": false,
-                        },
-                    },
-                ],
             },
-        },
     },
     "project_panel": {
         "dock": "right",
@@ -67,6 +51,15 @@
         "dock": "right",
     },
     "agent_servers": {
+        "claude-acp": {
+            "default_config_options": {
+                "mode": "auto"
+            },
+            "type": "registry"
+        },
+        "deepagents": {
+            "type": "registry"
+        },
         "Kimi Code CLI": {
             "default_config_options": {
                 "mode": "auto"
@@ -81,22 +74,12 @@
         "codex-acp": {
             "type": "registry",
         },
-        "claude-acp": {
-            "favorite_config_option_values": {
-                "mode": [
-                    "auto"
-                ]
-            },
-            "default_config_options": {
-                "mode": "auto",
-            },
-            "type": "registry",
-        },
     },
     "session": {
         "trust_all_worktrees": true,
     },
     "terminal": {
+        "shell": "system",
         "font_size": 14.0,
         "font_family": "Consolas",
         "font_fallbacks": [
@@ -138,11 +121,11 @@
         "light": "Zed (Default)",
         "dark": "Zed (Default)"
     },
-    "ui_font_size": 16,
-    "buffer_font_size": 15,
+    "ui_font_size": 15.0,
+    "buffer_font_size": 13.0,
     "theme": {
         "mode": "dark",
-        "light": "Gruvbox Dark",
+        "light": "Ayu Dark",
         "dark": "Ayu Dark"
     },
 }

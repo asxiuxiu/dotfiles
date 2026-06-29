@@ -20,8 +20,8 @@ NamespaceIndentation: None
 # 列宽
 ColumnLimit: 120
 
-# 大括号风格（VS 默认不换行）
-BreakBeforeBraces: Attach
+# 大括号风格（Allman：函数、类、控制流的大括号均换行）
+BreakBeforeBraces: Allman
 
 # 指针与引用（VS 默认靠近变量名）
 PointerAlignment: Right

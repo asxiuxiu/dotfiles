@@ -128,4 +128,15 @@
         "light": "Ayu Dark",
         "dark": "Ayu Dark"
     },
+    "languages": {
+        "C++": {
+            "format_on_save": "on",
+            "formatter": {
+                "external": {
+                    "command": "clang-format",
+                    "arguments": ["--style=file"]
+                }
+            }
+        }
+    }
 }
